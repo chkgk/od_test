@@ -15,6 +15,7 @@ host = url.hostname
 port = url.port
 
 try:
+	print(database, user, host, port)
 	connection = psycopg2.connect(
 	    database=database,
 	    user=user,
